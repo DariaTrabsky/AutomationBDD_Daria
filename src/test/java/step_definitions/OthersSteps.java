@@ -16,6 +16,7 @@ public class OthersSteps {
     }
     @When("I open Others page")
     public void i_open_others_page() {
+
         System.out.println("opened others page");
     }
 

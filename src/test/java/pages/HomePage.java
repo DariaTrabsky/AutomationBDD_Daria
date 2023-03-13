@@ -26,4 +26,7 @@ public class HomePage {
     @FindBy(xpath = "//nav/a[contains(text(),'Others')]")
     public WebElement othersBtn;
 
+
+    @FindBy(xpath = "//nav/a[contains(text(),'User-Mgt')]")
+    public WebElement usermgtBtn;
 }
